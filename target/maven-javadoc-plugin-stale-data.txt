@@ -1,0 +1,123 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/16477/SoftwareQualityProjectManagement/Labs/BinaryCalculatorWebapp/target/classes;C:/Users/16477/SoftwareQualityProjectManagement/Labs/BinaryCalculatorWebapp/target/test-classes;C:/Users/16477/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.1.2.RELEASE/spring-boot-starter-web-2.1.2.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/boot/spring-boot-starter/2.1.2.RELEASE/spring-boot-starter-2.1.2.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.1.2.RELEASE/spring-boot-starter-logging-2.1.2.RELEASE.jar;C:/Users/16477/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar;C:/Users/16477/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar;C:/Users/16477/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar;C:/Users/16477/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar;C:/Users/16477/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar;C:/Users/16477/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar;C:/Users/16477/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar;C:/Users/16477/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.1.2.RELEASE/spring-boot-starter-json-2.1.2.RELEASE.jar;C:/Users/16477/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar;C:/Users/16477/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar;C:/Users/16477/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar;C:/Users/16477/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.8/jackson-datatype-jdk8-2.9.8.jar;C:/Users/16477/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.8/jackson-datatype-jsr310-2.9.8.jar;C:/Users/16477/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.8/jackson-module-parameter-names-2.9.8.jar;C:/Users/16477/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.1.2.RELEASE/spring-boot-starter-tomcat-2.1.2.RELEASE.jar;C:/Users/16477/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.14/tomcat-embed-core-9.0.14.jar;C:/Users/16477/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.14/tomcat-embed-el-9.0.14.jar;C:/Users/16477/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.14/tomcat-embed-websocket-9.0.14.jar;C:/Users/16477/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.14.Final/hibernate-validator-6.0.14.Final.jar;C:/Users/16477/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar;C:/Users/16477/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar;C:/Users/16477/.m2/repository/com/fasterxml/classmate/1.4.0/classmate-1.4.0.jar;C:/Users/16477/.m2/repository/org/springframework/spring-web/5.1.4.RELEASE/spring-web-5.1.4.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/spring-beans/5.1.4.RELEASE/spring-beans-5.1.4.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/spring-webmvc/5.1.4.RELEASE/spring-webmvc-5.1.4.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/spring-aop/5.1.4.RELEASE/spring-aop-5.1.4.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/spring-expression/5.1.4.RELEASE/spring-expression-5.1.4.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/2.1.2.RELEASE/spring-boot-starter-thymeleaf-2.1.2.RELEASE.jar;C:/Users/16477/.m2/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar;C:/Users/16477/.m2/repository/org/thymeleaf/thymeleaf/3.0.11.RELEASE/thymeleaf-3.0.11.RELEASE.jar;C:/Users/16477/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar;C:/Users/16477/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar;C:/Users/16477/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar;C:/Users/16477/.m2/repository/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.2.RELEASE/thymeleaf-extras-java8time-3.0.2.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.1.2.RELEASE/spring-boot-starter-test-2.1.2.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/boot/spring-boot-test/2.1.2.RELEASE/spring-boot-test-2.1.2.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.1.2.RELEASE/spring-boot-test-autoconfigure-2.1.2.RELEASE.jar;C:/Users/16477/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar;C:/Users/16477/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar;C:/Users/16477/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar;C:/Users/16477/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar;C:/Users/16477/.m2/repository/junit/junit/4.12/junit-4.12.jar;C:/Users/16477/.m2/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar;C:/Users/16477/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar;C:/Users/16477/.m2/repository/net/bytebuddy/byte-buddy/1.9.7/byte-buddy-1.9.7.jar;C:/Users/16477/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.7/byte-buddy-agent-1.9.7.jar;C:/Users/16477/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar;C:/Users/16477/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar;C:/Users/16477/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar;C:/Users/16477/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar;C:/Users/16477/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar;C:/Users/16477/.m2/repository/org/springframework/spring-core/5.1.4.RELEASE/spring-core-5.1.4.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/spring-jcl/5.1.4.RELEASE/spring-jcl-5.1.4.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/spring-test/5.1.4.RELEASE/spring-test-5.1.4.RELEASE.jar;C:/Users/16477/.m2/repository/org/xmlunit/xmlunit-core/2.6.2/xmlunit-core-2.6.2.jar;C:/Users/16477/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar;C:/Users/16477/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar;C:/Users/16477/.m2/repository/org/springframework/boot/spring-boot-devtools/2.1.2.RELEASE/spring-boot-devtools-2.1.2.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/boot/spring-boot/2.1.2.RELEASE/spring-boot-2.1.2.RELEASE.jar;C:/Users/16477/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/16477/SoftwareQualityProjectManagement/Labs/BinaryCalculatorWebapp/src/test/java;C:/Users/16477/SoftwareQualityProjectManagement/Labs/BinaryCalculatorWebapp/target/generated-test-sources/test-annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/16477/SoftwareQualityProjectManagement/Labs/BinaryCalculatorWebapp/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'BinaryCalculatorWebapp Maven Webapp 1.0.0 Test API'
+-link
+'../apidocs'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/16477/SoftwareQualityProjectManagement/Labs/BinaryCalculatorWebapp/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'BinaryCalculatorWebapp Maven Webapp 1.0.0 Test API'
+com.ontariotechu.sofe3980U
+'C:/Users/16477/SoftwareQualityProjectManagement/Labs/BinaryCalculatorWebapp/src/test/java/com/ontariotechu/sofe3980U/BinaryAPIControllerTest.java'
+'C:/Users/16477/SoftwareQualityProjectManagement/Labs/BinaryCalculatorWebapp/src/test/java/com/ontariotechu/sofe3980U/BinaryControllerTest.java'
+'C:/Users/16477/SoftwareQualityProjectManagement/Labs/BinaryCalculatorWebapp/src/test/java/com/ontariotechu/sofe3980U/HelloAPIControllerTest.java'
+'C:/Users/16477/SoftwareQualityProjectManagement/Labs/BinaryCalculatorWebapp/src/test/java/com/ontariotechu/sofe3980U/HelloControllerTest.java'
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\classes = 1738725801896
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\test-classes = 1738725803466
+C:\Users\16477\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.1.2.RELEASE\spring-boot-starter-web-2.1.2.RELEASE.jar = 1738083690341
+C:\Users\16477\.m2\repository\org\springframework\boot\spring-boot-starter\2.1.2.RELEASE\spring-boot-starter-2.1.2.RELEASE.jar = 1738083690618
+C:\Users\16477\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.1.2.RELEASE\spring-boot-starter-logging-2.1.2.RELEASE.jar = 1738083690434
+C:\Users\16477\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar = 1738083690811
+C:\Users\16477\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar = 1738083690844
+C:\Users\16477\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.11.1\log4j-to-slf4j-2.11.1.jar = 1738083690611
+C:\Users\16477\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar = 1738083690651
+C:\Users\16477\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar = 1738083690694
+C:\Users\16477\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar = 1738083690727
+C:\Users\16477\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar = 1738083690764
+C:\Users\16477\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.1.2.RELEASE\spring-boot-starter-json-2.1.2.RELEASE.jar = 1738083690776
+C:\Users\16477\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar = 1738083691183
+C:\Users\16477\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar = 1738083690847
+C:\Users\16477\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar = 1738083691095
+C:\Users\16477\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.8\jackson-datatype-jdk8-2.9.8.jar = 1738083690899
+C:\Users\16477\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.8\jackson-datatype-jsr310-2.9.8.jar = 1738083690937
+C:\Users\16477\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.8\jackson-module-parameter-names-2.9.8.jar = 1738083690936
+C:\Users\16477\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.1.2.RELEASE\spring-boot-starter-tomcat-2.1.2.RELEASE.jar = 1738083690984
+C:\Users\16477\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.14\tomcat-embed-core-9.0.14.jar = 1738083691326
+C:\Users\16477\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.14\tomcat-embed-el-9.0.14.jar = 1738083691050
+C:\Users\16477\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.14\tomcat-embed-websocket-9.0.14.jar = 1738083691107
+C:\Users\16477\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.14.Final\hibernate-validator-6.0.14.Final.jar = 1738083691281
+C:\Users\16477\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar = 1738083691198
+C:\Users\16477\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar = 1738083691207
+C:\Users\16477\.m2\repository\com\fasterxml\classmate\1.4.0\classmate-1.4.0.jar = 1738083691292
+C:\Users\16477\.m2\repository\org\springframework\spring-web\5.1.4.RELEASE\spring-web-5.1.4.RELEASE.jar = 1738083691570
+C:\Users\16477\.m2\repository\org\springframework\spring-beans\5.1.4.RELEASE\spring-beans-5.1.4.RELEASE.jar = 1738083691430
+C:\Users\16477\.m2\repository\org\springframework\spring-webmvc\5.1.4.RELEASE\spring-webmvc-5.1.4.RELEASE.jar = 1738083691414
+C:\Users\16477\.m2\repository\org\springframework\spring-aop\5.1.4.RELEASE\spring-aop-5.1.4.RELEASE.jar = 1738083691437
+C:\Users\16477\.m2\repository\org\springframework\spring-context\5.1.4.RELEASE\spring-context-5.1.4.RELEASE.jar = 1738083691492
+C:\Users\16477\.m2\repository\org\springframework\spring-expression\5.1.4.RELEASE\spring-expression-5.1.4.RELEASE.jar = 1738083691535
+C:\Users\16477\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\2.1.2.RELEASE\spring-boot-starter-thymeleaf-2.1.2.RELEASE.jar = 1738083691517
+C:\Users\16477\.m2\repository\org\thymeleaf\thymeleaf-spring5\3.0.11.RELEASE\thymeleaf-spring5-3.0.11.RELEASE.jar = 1738083691540
+C:\Users\16477\.m2\repository\org\thymeleaf\thymeleaf\3.0.11.RELEASE\thymeleaf-3.0.11.RELEASE.jar = 1738083691626
+C:\Users\16477\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar = 1738083691634
+C:\Users\16477\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar = 1738083691634
+C:\Users\16477\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar = 1738083691633
+C:\Users\16477\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.2.RELEASE\thymeleaf-extras-java8time-3.0.2.RELEASE.jar = 1738083691662
+C:\Users\16477\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.1.2.RELEASE\spring-boot-starter-test-2.1.2.RELEASE.jar = 1738083691705
+C:\Users\16477\.m2\repository\org\springframework\boot\spring-boot-test\2.1.2.RELEASE\spring-boot-test-2.1.2.RELEASE.jar = 1738083691741
+C:\Users\16477\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.1.2.RELEASE\spring-boot-test-autoconfigure-2.1.2.RELEASE.jar = 1738083691741
+C:\Users\16477\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar = 1738083691741
+C:\Users\16477\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar = 1738083691753
+C:\Users\16477\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar = 1738083691787
+C:\Users\16477\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar = 1738083691827
+C:\Users\16477\.m2\repository\junit\junit\4.12\junit-4.12.jar = 1736875236706
+C:\Users\16477\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar = 1738083692760
+C:\Users\16477\.m2\repository\org\mockito\mockito-core\2.23.4\mockito-core-2.23.4.jar = 1738083692072
+C:\Users\16477\.m2\repository\net\bytebuddy\byte-buddy\1.9.7\byte-buddy-1.9.7.jar = 1738083692480
+C:\Users\16477\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.7\byte-buddy-agent-1.9.7.jar = 1738083691896
+C:\Users\16477\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar = 1738083691918
+C:\Users\16477\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar = 1711071910758
+C:\Users\16477\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar = 1738083691985
+C:\Users\16477\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar = 1738083692001
+C:\Users\16477\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar = 1738083692076
+C:\Users\16477\.m2\repository\org\springframework\spring-core\5.1.4.RELEASE\spring-core-5.1.4.RELEASE.jar = 1738083692156
+C:\Users\16477\.m2\repository\org\springframework\spring-jcl\5.1.4.RELEASE\spring-jcl-5.1.4.RELEASE.jar = 1738083692165
+C:\Users\16477\.m2\repository\org\springframework\spring-test\5.1.4.RELEASE\spring-test-5.1.4.RELEASE.jar = 1738083692200
+C:\Users\16477\.m2\repository\org\xmlunit\xmlunit-core\2.6.2\xmlunit-core-2.6.2.jar = 1738083692266
+C:\Users\16477\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar = 1738083692265
+C:\Users\16477\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar = 1738083692289
+C:\Users\16477\.m2\repository\org\springframework\boot\spring-boot-devtools\2.1.2.RELEASE\spring-boot-devtools-2.1.2.RELEASE.jar = 1738083692381
+C:\Users\16477\.m2\repository\org\springframework\boot\spring-boot\2.1.2.RELEASE\spring-boot-2.1.2.RELEASE.jar = 1738083692415
+C:\Users\16477\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.2.RELEASE\spring-boot-autoconfigure-2.1.2.RELEASE.jar = 1738083692496
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\src\test\java = 1738086360862
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\generated-test-sources\test-annotations = 1738725802909
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\allclasses-index.html = 1738725816459
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\allpackages-index.html = 1738725816465
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\copy.svg = 1738725816539
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\element-list = 1738725816339
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\help-doc.html = 1738725816526
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\index-all.html = 1738725816506
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\index.html = 1738725816511
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\link.svg = 1738725816542
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\member-search-index.js = 1738725816476
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\module-search-index.js = 1738725816469
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\overview-tree.html = 1738725816425
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\package-search-index.js = 1738725816472
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\script.js = 1738725816535
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\search-page.js = 1738725816552
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\search.html = 1738725816508
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\search.js = 1738725816548
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\stylesheet.css = 1738725816531
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\tag-search-index.js = 1738725816478
+C:\Users\16477\SoftwareQualityProjectManagement\Labs\BinaryCalculatorWebapp\target\site\testapidocs\type-search-index.js = 1738725816474
